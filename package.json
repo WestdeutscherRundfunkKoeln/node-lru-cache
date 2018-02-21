@@ -28,6 +28,7 @@
     "yallist": "^2.1.2"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "util.js"
   ]
 }
