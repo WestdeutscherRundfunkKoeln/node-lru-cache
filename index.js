@@ -5,7 +5,7 @@ module.exports = LRUCache
 // This will be a proper iterable 'Map' in engines that support it,
 // or a fakey-fake PseudoMap in older versions.
 var Map = require('pseudomap')
-var util = require('util')
+var util = require('./util')
 
 // A linked list to keep track of recently-used-ness
 var Yallist = require('yallist')
